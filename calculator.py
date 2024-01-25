@@ -15,6 +15,6 @@ while True:
 
 	x = int(input("please enter first number: "))
 	y = int(input("please enter second number: "))
-	ops = int(input("Choose between x,-,*,/ "))
+	ops = str(input("Choose between x,-,*,/ "))
 
 	print(calc(x,y,ops))
