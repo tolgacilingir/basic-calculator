@@ -6,11 +6,11 @@ def calc(x,y,ops):
 	if ops == "+":
 		return(str(x) + " " + ops + " " + str(y) + "=" + str(x+y))
 	elif ops == "-":
-	    return(str(x) + " " + ops + " " + str(y) + "=" + str(x+y))
+	    return(str(x) + " " + ops + " " + str(y) + "=" + str(x-y))
 	elif ops == "*":
-	    return(str(x) + " " + ops + " " + str(y) + "=" + str(x+y))    	
+	    return(str(x) + " " + ops + " " + str(y) + "=" + str(x*y))    	
 	elif ops == "/":
-	    return(str(x) + " " + ops + " " + str(y) + "=" + str(x+y))   
+	    return(str(x) + " " + ops + " " + str(y) + "=" + str(x/y))   
 while True:	    
 
 	x = int(input("please enter first number: "))
